@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  types: MyString
+  faction: MyString
+  rarity: MyString
+  resource_types: MyString
+  resource_quantity: 1
+  health: 1
+  attack: 1
+  speed: 1
+  initiative: 1
+  specials: MyString
+  image_url: MyString
+
+two:
+  name: MyString
+  types: MyString
+  faction: MyString
+  rarity: MyString
+  resource_types: MyString
+  resource_quantity: 1
+  health: 1
+  attack: 1
+  speed: 1
+  initiative: 1
+  specials: MyString
+  image_url: MyString

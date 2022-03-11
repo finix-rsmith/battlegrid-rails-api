@@ -3,16 +3,12 @@
 #
 # Examples:
 #
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+#   Character.create(name: 'Luke', movie: movies.first)
 
-Character.create(name: "Pestilence, the Cursed Wind", species: "Incarnation", character_class: "Warrior", faction: "Guild", rarity: "Legendary", resources: "Mana", cost: 5, health: 3, attack: 3, speed: 2, initiative: 8, specials: "Armor 1, Diseased 4")
-
-#	{name: "War, the World Aflame", species: "Incarnation", character_class: "Warrior", faction: "Horde", rarity: "Legendary", resources: "Mana", cost: 5, health: 3, attack: 3, speed: 2, initiative: 7, specials: "Armor 1, Rally 5"},
-#	{name: "Famine, the Culling Scales", species: "Incarnation", character_class: "Warrior", faction: "Necromancy", rarity: "Legendary", resources: "Mana", cost: 5, health: 3, attack: 3, speed: 2, initiative: 6, specials: "Armor 1, Desolation 6"},
-#	{name: "Death, the Oblivion Harbinger", species: "Incarnation", character_class: "Warrior", faction: "Underworld", rarity: "Legendary", resources: "Mana", cost: 5, health: 3, attack: 3, speed: 2, initiative: 5, specials: "Armor 1, Death: Doomsday 7"}
-
-# terrains = Terrain.create([
-#	{name: "", environment: "", faction: "", rarity: "", resources: "", production: 1, specials: ""},
-#	{name: "", environment: "", faction: "", rarity: "", resources: "", production: 1, specials: ""}
-# ])
+Tile.create([
+	{name: 'Pestilence, the Cursed Wind', types: 'Incarnation Warrior', faction: 'Guild', rarity: 'Legendary', resource_types: 'Mana', resource_quantity: 5, health: 3, attack: 3, speed: 2, initiative: 8, specials: 'Armor 1, Diseased 4', image_url: 'https://cdnb.artstation.com/p/assets/images/images/032/714/191/4k/sadan-vague-1004.jpg?1607266356'},
+	{name: 'War, the World Aflame', types: 'Incarnation Warrior', faction: 'Horde', rarity: 'Legendary', resource_types: 'Mana', resource_quantity: 5, health: 3, attack: 3, speed: 2, initiative: 7, specials: 'Armor 1, Rally 5', image_url: 'https://cdnb.artstation.com/p/assets/images/images/032/714/307/4k/sadan-vague-1005.jpg?1607266661'},
+	{name: 'Famine, the Culling Scales', types: 'Incarnation Warrior', faction: 'Necromancy', rarity: 'Legendary', resource_types: 'Mana', resource_quantity: 5, health: 3, attack: 3, speed: 2, initiative: 6, specials: 'Armor 1, Desolation 6', image_url: 'https://cdna.artstation.com/p/assets/images/images/032/714/312/4k/sadan-vague-1006.jpg?1607266667'},
+	{name: 'Death, the Oblivion Harbinger', types: 'Incarnation Warrior', faction: 'Underworld', rarity: 'Legendary', resource_types: 'Mana', resource_quantity: 5, health: 3, attack: 3, speed: 2, initiative: 5, specials: 'Armor 1, Death: Doomsday 7', image_url: 'https://cdna.artstation.com/p/assets/images/images/032/714/316/4k/sadan-vague-1007.jpg?1607266673'}
+])
