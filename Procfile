@@ -1,1 +1,1 @@
-web: rails db:seed; bundle e rails s
+web: bundle e rails s
