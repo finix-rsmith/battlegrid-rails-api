@@ -1,24 +1,11 @@
-# README
+# Battlegrid
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+View demo on [Heroku](https://battlegrid-react-app.heroku.com)
 
-Things you may want to cover:
+## Copyright
+2022 TZRKT Entertainment Inc.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Author
+**Richard Smith**
+- rsmith@tzrkt.com
+- 617-417-2179
